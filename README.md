@@ -11,7 +11,7 @@ username3:password3
 <br>
 username4:password4
 <br>
-It will then output, after execution, as fast as the 1.5 second api rate limiting will allow:
+It will then output, after execution, as fast as the 1.5 second api rate limiting will allow, a file called filesbyear.txt:
 
 username:password:2018
 <br>
