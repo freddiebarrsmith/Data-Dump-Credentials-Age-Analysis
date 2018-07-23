@@ -42,6 +42,7 @@ with open('databreach.csv', 'rU') as f:
                 doesbreachyearexist = yearbreachlist.get(breachyear)
                 if (doesbreachyearexist == None):
                     yearbreachlist[breachyear] = []
+                    yearbreachlist[breachyear].append(line)
                 else:
                     yearbreachlist[breachyear].append(line)
             pass
